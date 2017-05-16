@@ -1,3 +1,3 @@
-FROM httpd:2.4.25
+FROM nginx:1.13.0-alpine
 LABEL maintainer="Niek Bosch <code@niekbosch.nl>"
-COPY public/ /usr/local/apache2/htdocs/
+COPY public/ /usr/share/nginx/html/
