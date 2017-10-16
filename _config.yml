@@ -63,13 +63,15 @@ projects-tagline: Below you can find some Galaxy-related projects from around th
 
 projects:
 - title: Galaxy Training Materials
-  subtitle: A central repository for Galaxy training materials on a variety of subjects. Both for self-study and in a classroom setting
+  subtitle: For self-study or use in a classroom setting
   modal-id: 0
-  image: gtn-logo.png
-  thumbnail: gtn-logo-small.png
+  image: GTN.png
+  thumbnail: GTN.png
   keywords: Galaxy, Training
-  url:
+  url: https://training.galaxyproject.org
   description:
+      - paragraph: blabla
+      - image: GTN.png
 
 - title: MyFAIR
   subtitle: FAIR data Galaxy integration
@@ -85,10 +87,10 @@ projects:
 
 
 #################
-# PUBLICATIONS
+#   Events
 #################
 publications-header: Events
-publications-tagline: List of Galaxy event past and upcoming
+publications-tagline: List of Galaxy events, past and upcoming.
 
 # these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
 publications:
