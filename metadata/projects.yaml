@@ -4,7 +4,7 @@ projects:
   subtitle: For self-study or use in a classroom setting
   modal-id: 0
   image: GTN.png
-  thumbnail: GTN.png
+  thumbnail: GTN-thumbnail.png
   keywords: Galaxy, Training
   url: https://training.galaxyproject.org
   description:
