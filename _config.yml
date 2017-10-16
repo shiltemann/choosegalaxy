@@ -11,8 +11,7 @@ description: "Erasmus Medical Center Bioinformatcs Department"
 welcome-message: Welcome to the Dutch Galaxy Portal!
 welcome-subtitle: It's Nice To Meet You
 
-#banner-img: header-bg.jpg
-banner-img: banner.jpg
+banner-img: banner-dna.jpg
 
 ################
 #  Servers
@@ -57,12 +56,21 @@ servers:
 #  PROJECTS
 ################
 projects-header: Projects
-projects-tagline: Lorem ipsum dolor sit amet consectetur.
+projects-tagline: Below you can find some Galaxy-related projects from around the country and the world.
 
 # ansible playbook
 # EGA connection
 
 projects:
+- title: Galaxy Training Materials
+  subtitle: A central repository for Galaxy training materials on a variety of subjects. Both for self-study and in a classroom setting
+  modal-id: 0
+  image: gtn-logo.png
+  thumbnail: gtn-logo-small.png
+  keywords: Galaxy, Training
+  url:
+  description:
+
 - title: MyFAIR
   subtitle: FAIR data Galaxy integration
   modal-id: 1
@@ -74,26 +82,6 @@ projects:
     - paragraph: MyFAIR Analysis is a web application designed to allow scientists to create FAIR data, and to provide FAIR data analysis such that the “end to end” analysis complies with FAIR data principles. MyFAIR analysis is a python application and graphical user interface (GUI) that uses Galaxy2 for analytical workflows and B2DROP3(EUDAT) for FAIR data storage.  Our proof of concept to test myFAIR analysis uses the genome in a bottle trio-samples available form  galaxy training for genetic variation analysis.
     - image: myfair.png
 
-- title: Galaxian
-  subtitle: The ErasmusMC main Galaxy server
-  modal-id: 2
-  image: galaxian.png
-  thumbnail: galaxian_thumbnail.png
-  keywords: Galaxy
-  url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-  description:
-    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools.
-
-- title: Tailored Treatment
-  subtitle: Antimicrobial Resistance
-  modal-id: 3
-  image: ttt.jpg
-  thumbnail: ttt_thumbnail.jpg
-  keywords: Galaxy, Microbiota
-  url: http://www.tailored-treatment.eu/
-  description:
-    - paragraph: Though of tremendous benefit to global health, antibiotics currently represent the most misused drugs in the world. Global overuse is estimated at 40%-70%, with overuse leading to preventable adverse events that may impact on patient care. Importantly, overuse also leads to the emergence of antibiotic-resistance, a phenomenon that is recognized as a major threat to global health. Further, the current diagnostic tools for facilitating the appropriate use of antibiotics are often inadequate as antibiotic consumption and the spread of antibiotic resistance are continually increasing.
-    - paragraph: The TAILORED-Treatment project aims to help clinicians make informed decisions regarding the need for, and type of, antimicrobial therapy required for individual patients"
 
 
 #################
