@@ -1,0 +1,17 @@
+<!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ site.about-header }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.about-tagline }}</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <center><img src="img/{{ site.about-image }}" class="img-responsive img-circle" alt=""></center><br>
+            </div>
+            <div class="row text-center">
+                {% for p in site.about-text %} <p class="text-muted">{{ p.paragraph }}</p> {% endfor %}
+            </div>
+        </div>
+    </section>

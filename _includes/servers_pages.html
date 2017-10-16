@@ -1,0 +1,28 @@
+ <!-- Project Pages -->
+ {% for service in site.services %}
+    <div class="projects-modal modal fade" id="servicesModal{{ service.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ service.name }}</h2>
+                            <hr class="star-primary">
+                            {% for p in service.description %}
+                            {% if p.paragraph %} <p>{{ p.paragraph }}</p> {% endif %}
+                            {% if p.image %} <img src="img/services/{{ p.image }}" class="img-responsive img-centered"> {% endif %}                            
+                            {% endfor %}
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

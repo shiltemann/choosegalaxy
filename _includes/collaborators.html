@@ -1,0 +1,17 @@
+<!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+
+                {% for collaborator in site.collaborations %}
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/{{ collaborator.logo }}" class="img-responsive img-centered" alt="{{ collaborator.name }}">
+                    </a>
+                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    </aside>

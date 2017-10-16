@@ -1,0 +1,34 @@
+ <!-- Project Pages -->
+ {% for project in site.projects %}
+    <div class="projects-modal modal fade" id="projectsModal{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ project.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/projects/{{ project.image }}" class="img-responsive img-centered" alt="{{ project.alt }}">
+                            {% for p in project.description %}
+                            {% if p.paragraph %} <p>{{ p.paragraph }}</p> {% endif %}
+                            {% if p.image %} <img src="img/projects/{{ p.image }}" class="img-responsive img-centered"> {% endif %}
+                            {% endfor %}
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a href="{{ project.url }}"> Go to project </a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
