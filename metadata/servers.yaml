@@ -1,0 +1,31 @@
+---
+servers:
+- name: NBIC Galaxy
+  tagline: The DTL Galaxy instance hosted at SURFSara
+  icon: star
+  modal-id: 1
+  url: https://galaxy.nbic.nl
+  description:
+    - paragraph: blabla
+    - image: galaxy_logo.jpg
+    - paragraph: blabla again
+
+- name: ErasmusMC Galaxian
+  tagline: Galaxy server with focus on NGS analysis.
+  icon: star
+  modal-id: 2
+  url: https://bioinf-galaxian.erasmusmc.nl/galaxy/
+  description:
+    - paragraph: blabla
+    - image: galaxy_logo.jpg
+    - paragraph: blabla again
+
+- name: LUMC Galaxy
+  tagline: Local Galaxy running at LUMC Cluster.
+  icon: star
+  modal-id: 3
+  url: https://sasc.lumc.nl
+  description:
+    - paragraph: blabla
+    - image: galaxy_logo.jpg
+    - paragraph: blabla again

@@ -1,9 +1,16 @@
 url: https://ErasmusMC-Bioinformatics.github.io
 baseurl:
 
-##################
-#    GENERAL
-##################
+# where things are
+data_dir: metadata
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+
+# General site settings
 title: Choose Galaxy NL
 email: a.stubbs@erasmusmc.nl
 description: "Erasmus Medical Center Bioinformatcs Department"
@@ -13,210 +20,27 @@ welcome-subtitle: It's Nice To Meet You
 
 banner-img: banner-dna.jpg
 
-################
-#  Servers
-################
 
-# use icon names from fontawesome http://fontawesome.io/icons/
+# Section headers
 servers-header: Galaxy Servers
 servers-tagline: Below is an overview of available public Galaxy instances in The Netherlands. Click on each logo to get more information
+servers-footer:
 
-servers:
-- name: NBIC Galaxy
-  tagline: The DTL Galaxy instance hosted at SURFSara
-  icon: star
-  modal-id: 1
-  url: https://galaxy.nbic.nl
-  description:
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - paragraph: blabla again
-
-- name: ErasmusMC Galaxian
-  tagline: Galaxy server with focus on NGS analysis.
-  icon: star
-  modal-id: 2
-  url: https://bioinf-galaxian.erasmusmc.nl/galaxy/
-  description:
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - paragraph: blabla again
-
-- name: LUMC Galaxy
-  tagline: Local Galaxy running at LUMC Cluster.
-  icon: star
-  modal-id: 3
-  url: https://sasc.lumc.nl
-  description:
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - paragraph: blabla again
-
-################
-#  PROJECTS
-################
 projects-header: Projects
 projects-tagline: Below you can find some Galaxy-related projects from around the country and the world.
+projects-footer:
 
-# ansible playbook
-# EGA connection
+events-header: Events
+events-tagline: List of Galaxy events, past and upcoming.
+events-footer: If you would like to register your event here, please contact
 
-projects:
-- title: Galaxy Training Materials
-  subtitle: For self-study or use in a classroom setting
-  modal-id: 0
-  image: GTN.png
-  thumbnail: GTN.png
-  keywords: Galaxy, Training
-  url: https://training.galaxyproject.org
-  description:
-      - paragraph: blabla
-      - image: GTN.png
+partners-header: GalaxyNL partners
+partners-tagline: The Dutch Galaxy Community
+partners-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
-- title: MyFAIR
-  subtitle: FAIR data Galaxy integration
-  modal-id: 1
-  image: fairdata.png
-  thumbnail: fairdata_thumbnail.png
-  keywords: Galaxy, FAIR data, Web Development
-  url: https://github.com/ErasmusMC-Bioinformatics/myFAIR
-  description:
-    - paragraph: MyFAIR Analysis is a web application designed to allow scientists to create FAIR data, and to provide FAIR data analysis such that the “end to end” analysis complies with FAIR data principles. MyFAIR analysis is a python application and graphical user interface (GUI) that uses Galaxy2 for analytical workflows and B2DROP3(EUDAT) for FAIR data storage.  Our proof of concept to test myFAIR analysis uses the genome in a bottle trio-samples available form  galaxy training for genetic variation analysis.
-    - image: myfair.png
-
-
-
-#################
-#   Events
-#################
-publications-header: Events
-publications-tagline: List of Galaxy events, past and upcoming.
-
-# these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
-publications:
-- title: Integration of EGA secure data access into Galaxy
-  journal: F1000 Research
-  url: https://f1000research.com/articles/5-2841
-  year: 2016
-  month: December
-  day: 16
-  pic: ega.png
-  abstract: High-throughput molecular profiling techniques are routinely generating vast amounts of data for translational medicine studies. Secure access controlled systems are needed to manage, store, transfer and distribute these data due to its personally identifiable nature. The European Genome-phenome Archive (EGA) was created to facilitate access and management to long-term archival of bio-molecular data.
-
-- title: "FuMa: reporting overlap in RNA-seq detected fusion genes"
-  journal: Bioinformatics
-  url: https://doi.org/10.1093/bioinformatics/btv721
-  year: 2015
-  month: December
-  day: 10
-  pic: fuma.png
-  abstract: A new generation of tools that identify fusion genes in RNA-seq data is limited in either sensitivity and or specificity. To allow further downstream analysis and to estimate performance, predicted fusion genes from different tools have to be compared. However, the transcriptomic con-text complicates genomic location-based matching. FusionMatcher (FuMa) is a program that reports identical fusion genes based on gene-name annotations.
-
-- title: Discriminating somatic and germline mutations in tumor DNA samples without matching normals
-  journal: Genome Research
-  url: http://genome.cshlp.org/content/25/9/1382
-  year: 2015
-  month: July
-  day: 24
-  pic: virtualnormal.png
-  abstract: Tumor analyses commonly employ a correction with a matched normal (MN), a sample from healthy tissue of the same individual, in order to distinguish germline mutations from somatic mutations. Since the majority of variants found in an individual are thought to be common within the population, we constructed a set of 931 samples from healthy, unrelated individuals, originating from two different sequencing platforms, to serve as a virtual normal (VN) in the absence of such an associated normal sample.
-
-- title: ImmunoGlobulin galaxy (IGGalaxy) for simple determination and quantitation of immunoglobulin heavy chain rearrangements from NGS
-  journal: BMC Immunology
-  url: https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-014-0059-7
-  year: 2014
-  month: December
-  day: 13
-  pic: iggalaxy.jpg
-  abstract: In this study we describe ImmunoGlobulin Galaxy (IGGalaxy)- a convenient web based application for analyzing next-generation sequencing results and reporting IGH gene rearrangements for both repertoire and clonality studies.
-
-- title: "iReport: a generalised Galaxy solution for integrated experimental reporting"
-  journal: GigaScience
-  url: https://doi.org/10.1186/2047-217X-3-19
-  year: 2014
-  month: October
-  day: 13
-  pic: ireport.jpg
-  abstract: Galaxy offers a number of visualisation options with components, such as Trackster, Circster and Galaxy Charts, but currently lacks the ability to easily combine outputs from different tools into a single view or report. We have developed a generic and flexible reporting tool for Galaxy, iReport, that allows users to create interactive HTML reports directly from the Galaxy UI, with the ability to combine an arbitrary number of outputs from any number of different tools.
-
-#################
-#    ABOUT
-#################
 about-header: About us
 about-tagline:
-about-image: Galaxy_NL_member_map.jpg
-about-text:
-    - paragraph: In 2003, Erasmus MC took the first steps in order to establish a Center for Bioinformatics. Located in the heart of the biomedical research activities of Erasmus MC, this high-tech bioinformatics department is equipped with a state of the art hard- and software. In collaboration with other departments the center’s multidisciplinary team supports projects that generate genetics, genomics and proteomics data from basic research, forensics studies, molecular diagnostics and clinical trials.
-    - paragraph: The center also runs a research program of its own, which provides the biological and technological basis of all the other activities. The research focuses on the way the genome as a whole contributes to the evolution, development, structure and function of the brain. It involves analysis of gene expression in cells of the brain and combines genomics, proteomics and cytogenetic data to identify genes associated with neurological disorders or craniofacial and extremity malformations.
-
-#################
-#    TEAM
-#################
-team-header: GalaxyNL partners
-team-tagline: The Dutch Galaxy
-team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-
-people:
-- name: Andrew Stubbs
-  pic: andrew.jpg
-  position: Assistent Professor
-  contact:
-    - icon: envelope
-      url: mailto:a.stubbs@erasmsumc.nl
-    - icon: linkedin
-      url: https://www.linkedin.com/in/andrew-stubbs-036b0026/
-    - icon: github
-      url: https://github.com/Andrew-EMC
-
-- name: Bas Horsman
-  pic: bas.jpg
-  position: Developer
-  contact:
-    - icon: envelope
-      url: mailto:s.horsman@erasmsumc.nl
-    - icon: github
-      url: https://github.com/shorsman
-    - icon: linkedin
-      url: https://www.linkedin.com/in/bas-horsman-7370492/
-
-- name: David van Zessen
-  pic: david.jpg
-  position: Developer
-  contact:
-    - icon: envelope
-      url: mailto:d.vanzessen@erasmsumc.nl
-    - icon: github
-      url: https://github.com/davidvanzessen
-
-- name: Saskia Hiltemann
-  pic: saskia.jpg
-  position: PhD student
-  contact:
-    - icon: envelope
-      url: mailto:zazkia@gmail.com
-    - icon: github
-      url: https://github.com/shiltemann
-    - icon: linkedin
-      url: https://www.linkedin.com/in/shiltemann/
-    - icon: twitter
-      url: https://twitter.com/shiltemann
-
-- name: Youri Hoogstrate
-  pic: youri.jpg
-  position: PhD student
-  contact:
-    - icon: envelope
-      url: mailto:y.hoogstrate@erasmsumc.nl
-    - icon: github
-      url: https://github.com/yhooogstrate
-
-- name: Yunlei Li
-  pic: yunlei.jpg
-  position: Post-Doc
-  contact:
-    - icon: envelope
-      url: mailto:y.li1@erasmsumc.nl
-
+about-footer:
 
 
 #####################
@@ -272,8 +96,3 @@ social:
     url: https://github.com/orgs/ErasmusMC-Bioinformatics
   - title: twitter
     url: https://twitter.com/ErasmusMC
-
-
-### Build settings
-markdown: kramdown
-permalink: pretty

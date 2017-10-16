@@ -1,5 +1,7 @@
+{% assign serverslist = site.data['servers'] %}
+
 <!-- Services Section -->
-    <section id="services">
+    <section id="servers" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -8,7 +10,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                {% for server in site.servers %}
+                {% for server in serverslist.servers %}
                 <div class="col-md-4">
                     {%if server.modal-id %}<a href="#servicesModal{{ service.modal-id }}" class="projects-link" data-toggle="modal">{% endif %}
                         <span class="fa-stack fa-4x">

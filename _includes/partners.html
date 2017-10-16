@@ -1,14 +1,16 @@
+{% assign partnerslist = site.data['partners'] %}
+
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="partners">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.team-header }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.team-tagline }}</h3>
+                    <h2 class="section-heading">{{ site.partners-header }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.partners-tagline }}</h3>
                 </div>
             </div>
             <div class="row">
-                {% for member in site.people %}
+                {% for member in partnerslist.people %}
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">

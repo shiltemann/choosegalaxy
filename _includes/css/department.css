@@ -653,7 +653,8 @@ section h3.section-subheading {
 }
 
 aside.collaborators img {
-    margin: 50px auto;
+    margin: 5px auto;
+    max-height: 50px;
 }
 
 section#contact {
