@@ -2,7 +2,7 @@
 projects:
 - title: Galaxy Training Materials
   subtitle: For self-study or use in a classroom setting
-  modal-id: 0
+  id: gtn
   image: GTN.png
   thumbnail: GTN-thumbnail.png
   keywords: Galaxy, Training
@@ -13,7 +13,7 @@ projects:
 
 - title: MyFAIR
   subtitle: FAIR data Galaxy integration
-  modal-id: 1
+  id: myfair
   image: fairdata.png
   thumbnail: fairdata_thumbnail.png
   keywords: Galaxy, FAIR data, Web Development

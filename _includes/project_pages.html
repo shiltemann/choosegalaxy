@@ -1,6 +1,8 @@
+{% assign projectslist = site.data['projects'] %}
+
  <!-- Project Pages -->
- {% for project in site.projects %}
-    <div class="projects-modal modal fade" id="projectsModal{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for project in projectslist.projects %}
+    <div class="projects-modal modal fade" id="project-{{ project.id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">

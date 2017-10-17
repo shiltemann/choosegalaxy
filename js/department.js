@@ -35,3 +35,12 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+// open modals from hash in url
+if (matches = window.location.href.match(/#(project|server)-([0-9a-zA-Z-_])+/))
+{
+    $(matches).modal({
+        show: true,
+        backdrop: false
+    });
+}

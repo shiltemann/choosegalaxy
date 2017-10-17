@@ -1,6 +1,6 @@
 {% assign serverslist = site.data['servers'] %}
 
-<!-- Services Section -->
+<!-- servers Section -->
     <section id="servers" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -12,13 +12,13 @@
             <div class="row text-center">
                 {% for server in serverslist.servers %}
                 <div class="col-md-4">
-                    {%if server.modal-id %}<a href="#servicesModal{{ service.modal-id }}" class="projects-link" data-toggle="modal">{% endif %}
+                    {%if server.id %}<a href="#server-{{ server.id }}" class="projects-link" data-toggle="modal">{% endif %}
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-{{ server.icon }} fa-stack-1x fa-inverse"> </i>
                         </span>
-                    {%if server.modal-id %}</a>{% endif %}
-                    <h4 class="service-heading">{{ server.name }}</h4>
+                    {%if server.id %}</a>{% endif %}
+                    <h4 class="server-heading">{{ server.name }}</h4>
                     <p class="text-muted">{{ server.tagline }}</p>
                 </div>
                 {% endfor %}
