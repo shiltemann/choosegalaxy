@@ -1,47 +1,22 @@
 # these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
 ---
 events:
-- title: Integration of EGA secure data access into Galaxy
-  journal: F1000 Research
-  url: https://f1000research.com/articles/5-2841
-  year: 2016
-  month: December
-  day: 16
+- title: Elixir-NL Galaxy Training
+  day:
+  month:
+  year: 2018
+  url:
+  location: TBD
+  organizer: Elixir-NL
   pic: ega.png
-  abstract: High-throughput molecular profiling techniques are routinely generating vast amounts of data for translational medicine studies. Secure access controlled systems are needed to manage, store, transfer and distribute these data due to its personally identifiable nature. The European Genome-phenome Archive (EGA) was created to facilitate access and management to long-term archival of bio-molecular data.
+  description: Elixir-NL will provide a training in the first half of 2018.
 
-- title: "FuMa: reporting overlap in RNA-seq detected fusion genes"
-  journal: Bioinformatics
-  url: https://doi.org/10.1093/bioinformatics/btv721
-  year: 2015
-  month: December
-  day: 10
+- title: NGS Data Analysis Course
+  day: 6-8
+  month: November
+  year: 2018
+  url: http://www.rna-seqblog.com/ngs-course-rna-seq-data-analysis-2017-7th-edition/
+  location: LUMC
+  organizer: BioSB & LUMC
   pic: fuma.png
-  abstract: A new generation of tools that identify fusion genes in RNA-seq data is limited in either sensitivity and or specificity. To allow further downstream analysis and to estimate performance, predicted fusion genes from different tools have to be compared. However, the transcriptomic con-text complicates genomic location-based matching. FusionMatcher (FuMa) is a program that reports identical fusion genes based on gene-name annotations.
-
-- title: Discriminating somatic and germline mutations in tumor DNA samples without matching normals
-  journal: Genome Research
-  url: http://genome.cshlp.org/content/25/9/1382
-  year: 2015
-  month: July
-  day: 24
-  pic: virtualnormal.png
-  abstract: Tumor analyses commonly employ a correction with a matched normal (MN), a sample from healthy tissue of the same individual, in order to distinguish germline mutations from somatic mutations. Since the majority of variants found in an individual are thought to be common within the population, we constructed a set of 931 samples from healthy, unrelated individuals, originating from two different sequencing platforms, to serve as a virtual normal (VN) in the absence of such an associated normal sample.
-
-- title: ImmunoGlobulin galaxy (IGGalaxy) for simple determination and quantitation of immunoglobulin heavy chain rearrangements from NGS
-  journal: BMC Immunology
-  url: https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-014-0059-7
-  year: 2014
-  month: December
-  day: 13
-  pic: iggalaxy.jpg
-  abstract: In this study we describe ImmunoGlobulin Galaxy (IGGalaxy)- a convenient web based application for analyzing next-generation sequencing results and reporting IGH gene rearrangements for both repertoire and clonality studies.
-
-- title: "iReport: a generalised Galaxy solution for integrated experimental reporting"
-  journal: GigaScience
-  url: https://doi.org/10.1186/2047-217X-3-19
-  year: 2014
-  month: October
-  day: 13
-  pic: ireport.jpg
-  abstract: Galaxy offers a number of visualisation options with components, such as Trackster, Circster and Galaxy Charts, but currently lacks the ability to easily combine outputs from different tools into a single view or report. We have developed a generic and flexible reporting tool for Galaxy, iReport, that allows users to create interactive HTML reports directly from the Galaxy UI, with the ability to combine an arbitrary number of outputs from any number of different tools.
+  description: The BioSB research school and partner LUMC are organizing a 3-day course on RNA-seq data analysis. This is an advanced course for people with experience in NGS. The course will consist of lectures, Galaxy and R practicals and will cover the analysis pipelines for differential transcript expression and variant calling. Examples will be taken from human and mouse studies. The course does not cover prokaryotic RNA profiling nor plant- and metagenomics aspects

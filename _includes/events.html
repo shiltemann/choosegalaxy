@@ -24,11 +24,12 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p>
-                                    {% if event.year %} {{ event.month }} {{ event.year }} <br> {% endif %}
-                                    {% if event.journal %} <a href="{{ event.url }}"> {{ event.journal }} </a><br> {% endif %}
+                                    {% if event.year %} Date: {{ event.day }} {{ event.month }} {{ event.year }} <br> {% endif %}
+                                    {% if event.location %} Location: <a href="{{ event.url }}"> {{ event.location }} </a><br> {% endif %}
+                                    {% if event.organizer %} Organized by: {{ event.organizer }} {% endif %}
                                     </p>
                                     <p class="text-muted">
-                                    {% if event.abstract %} {{ event.abstract }} <br> {% endif %}
+                                    {% if event.description %} {{ event.description }} <br> {% endif %}
                                     {% if event.url %} <a href="{{ event.url }}"> READ MORE </a>  {% endif %}
                                     </p>
                                 </div>
