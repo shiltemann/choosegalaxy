@@ -1,3 +1,5 @@
+{% assign contact = site.data['contact'] %}
+
 <section id="contact">
         <div class="container">
             <div class="row">
@@ -6,7 +8,7 @@
                     <!--<h3 class="section-subheading text-muted">If you are interested in one of our services or starting a collaboration</h3>-->
                 </div>
             </div>
-            {% for c in site.contact-options %}
+            {% for c in contact.contact-options %}
             <div class="row">
                 <div class="text-center" style="color:white">
                     <h4>{{ c.header }}</h4>

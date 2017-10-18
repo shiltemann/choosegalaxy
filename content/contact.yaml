@@ -1,0 +1,18 @@
+---
+contact-options:
+- header: Add your event
+  links:
+    - description: saskiahiltemann@gmail.com
+      url: mailto:saskiahiltemann@gmail.com
+
+- header: ErasmusMC Visiting Address
+  text:
+    - line: Bioinformatics Department
+    - line: Faculty Building
+    - line: Room Ee15.79
+    - line: Wytemaweg 80
+    - line: 3015CN Rotterdam
+    - line: The Netherlands
+  links:
+    - description: Route and Parking
+      url: https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en

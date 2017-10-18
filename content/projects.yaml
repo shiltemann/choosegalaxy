@@ -1,4 +1,8 @@
 ---
+header: Projects
+tagline: Below you can find some Galaxy-related projects from around the country and the world.
+footer:
+
 projects:
 - title: Galaxy Training Materials
   subtitle: For self-study or use in a classroom setting

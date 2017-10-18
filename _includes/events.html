@@ -1,18 +1,18 @@
-{% assign eventslist = site.data['events'] %}
+{% assign e = site.data['events'] %}
 
 <!-- Events Section -->
     <section id="events" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.events-header }}</h2>
-                    <h3 class="section-subheading text-muted"> {{ site.events-tagline }}</h3>
+                    <h2 class="section-heading">{{ e.header }}</h2>
+                    <h3 class="section-subheading text-muted"> {{ e.tagline }}</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        {% for event in eventslist.events %}
+                        {% for event in e.events %}
                         {% capture cycle %}{% cycle 'even', 'odd' %}{% endcapture %}
                         <li {% if cycle == 'odd' %} class="timeline-inverted" {% endif %} >
                             <div class="timeline-image">
@@ -45,6 +45,11 @@
                             </div>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">{{ e.footer }}</p>
                 </div>
             </div>
         </div>

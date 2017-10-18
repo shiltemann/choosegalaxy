@@ -1,5 +1,9 @@
 # these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
 ---
+header: Events
+tagline: List of Galaxy-related events, past and upcoming.
+footer: If you would like to register your event here, please <a href="#contact">contact</a> us
+
 events:
 - title: Elixir-NL Galaxy Training
   day:
