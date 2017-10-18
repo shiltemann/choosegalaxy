@@ -24,12 +24,10 @@ welcome-subtitle: It's Nice To Meet You
 banner-img: banner-dna.jpg
 
 # Icon tag config
-icon-tag:
-  email: fa-envelope
-  github: fa-github
-  linkedin: fa-linkedin
-  twitter: fa-twitter
-
+icon-email: fa-envelope
+icon-github: fa-github
+icon-linkedin: fa-linkedin
+icon-twitter: fa-twitter
 
 social:
   - title: github
