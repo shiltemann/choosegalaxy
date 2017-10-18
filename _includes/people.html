@@ -1,4 +1,4 @@
-{% assign partnerslist = site.data['partners'] %}
+{% assign people = site.data['people'] %}
 
 <!-- Team Section -->
     <section id="partners" class="bg-light-gray">
@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="row">
-                {% for member in partnerslist.people %}
+                {% for member in people.people %}
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
