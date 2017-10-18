@@ -3,6 +3,11 @@ url: https://shiltemann.github.io/choosegalaxy
 baseurl:
 
 # where things are
+source: .
+destination: ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+includes_dir: _includes
 data_dir: content
 
 # Build settings
@@ -20,6 +25,13 @@ welcome-message: Welcome to the Dutch Galaxy Portal!
 welcome-subtitle: It's Nice To Meet You
 
 banner-img: banner-dna.jpg
+
+# Icon tag config
+icon-tag:
+  email: fa-envelope
+  github: fa-github
+  linkedin: fa-linkedin
+  twitter: fa-twitter
 
 
 # Section headers

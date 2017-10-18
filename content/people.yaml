@@ -1,43 +1,40 @@
+# picture can either be included in this repo (img directory) or can specify
+#   pic: github
+#   github-username: shiltemann
+# to get the image from github
 ---
 people:
+- name: Saskia Hiltemann
+  pic: github
+  affiliation: ErasmusMC
+  github: shiltemann
+  email: saskiahiltemann@gmail.com
+  linkedin: shiltemann
+  twitter: shiltemann
+
+- name: Leon Mei
+  pic: github
+  affiliation: LUMC
+  github: hailiangmei
+
+- name: Cico Zhang
+  pic: github
+  affiliation: VUMC
+  github: CicoZhang
+
 - name: Andrew Stubbs
   pic: andrew.jpg
   affiliation: ErasmusMC
-  contact:
-    - icon: envelope
-      url: mailto:a.stubbs@erasmsumc.nl
-    - icon: linkedin
-      url: https://www.linkedin.com/in/andrew-stubbs-036b0026/
-    - icon: github
-      url: https://github.com/Andrew-EMC
-
-- name: Saskia Hiltemann
-  pic: saskia.jpg
-  affiliation: ErasmusMC
-  contact:
-    - icon: envelope
-      url: mailto:zazkia@gmail.com
-    - icon: github
-      url: https://github.com/shiltemann
-    - icon: linkedin
-      url: https://www.linkedin.com/in/shiltemann/
-    - icon: twitter
-      url: https://twitter.com/shiltemann
+  email: a.stubbs@erasmsumc.nl
 
 - name: David van Zessen
   pic: david.jpg
   affiliation: ErasmusMC
-  contact:
-    - icon: envelope
-      url: mailto:d.vanzessen@erasmsumc.nl
-    - icon: github
-      url: https://github.com/davidvanzessen
+  github: davidvanzessen
+  email: d.vanzessen@erasmsumc.nl
 
 - name: Youri Hoogstrate
   pic: youri.jpg
   affiliation: ErasmusMC
-  contact:
-    - icon: envelope
-      url: mailto:y.hoogstrate@erasmsumc.nl
-    - icon: github
-      url: https://github.com/yhooogstrate
+  github: yhoogstrate
+  email: y.hoogstrate@erasmsumc.nl
