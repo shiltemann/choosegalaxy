@@ -2,7 +2,7 @@ url: https://ErasmusMC-Bioinformatics.github.io
 baseurl:
 
 # where things are
-data_dir: metadata
+data_dir: content
 
 # Build settings
 markdown: kramdown

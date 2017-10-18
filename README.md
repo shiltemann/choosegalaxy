@@ -4,7 +4,7 @@ landing page for choosegalaxy.nl, view at https://shiltemann.github.io/choosegal
 
 ## Updating the page
 
-To add content to the page, the only file you need to edit are the `yaml` files in the `metadata` directory.
+To add content to the page, the only file you need to edit are the `yaml` files in the `content` directory.
 
 To preview your local changes, make sure you have jekyll installed and run:
 
