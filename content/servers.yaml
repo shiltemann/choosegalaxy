@@ -4,32 +4,32 @@ tagline: Below is an overview of available public Galaxy instances in The Nether
 footer:
 
 servers:
-- name: NBIC Galaxy
-  tagline: The DTL Galaxy instance hosted at SURFSara
-  icon: star
-  id: nbic
-  url: https://galaxy.nbic.nl
-  description:
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - paragraph: blabla again
+  - name: NBIC Galaxy
+    tagline: The DTL Galaxy instance hosted at SURFSara
+    icon: star
+    id: nbic
+    url: https://galaxy.nbic.nl
+    description:
+      - paragraph: blabla
+      - image: galaxy_logo.jpg
+      - paragraph: blabla again
 
-- name: ErasmusMC Galaxian
-  tagline: Galaxy server with focus on NGS analysis.
-  icon: star
-  id: emc-galaxian
-  url: https://bioinf-galaxian.erasmusmc.nl/galaxy/
-  description:
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - paragraph: blabla again
+  - name: ErasmusMC Galaxian
+    tagline: Galaxy server with focus on NGS analysis.
+    icon: star
+    id: emc-galaxian
+    url: https://bioinf-galaxian.erasmusmc.nl/galaxy/
+    description:
+      - paragraph: blabla
+      - image: galaxy_logo.jpg
+      - paragraph: blabla again
 
-- name: LUMC Galaxy
-  tagline: Local Galaxy running at LUMC Cluster.
-  icon: star
-  id: lumc
-  url: https://sasc.lumc.nl
-  description:
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - paragraph: blabla again
+  - name: LUMC Galaxy
+    tagline: Local Galaxy running at LUMC Cluster.
+    icon: star
+    id: lumc
+    url: https://sasc.lumc.nl
+    description:
+      - paragraph: blabla
+      - image: galaxy_logo.jpg
+      - paragraph: blabla again

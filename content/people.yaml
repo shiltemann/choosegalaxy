@@ -8,37 +8,37 @@ tagline: The Dutch Galaxy Community
 footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
 people:
-- name: Saskia Hiltemann
-  pic: github
-  affiliation: ErasmusMC
-  github: shiltemann
-  email: saskiahiltemann@gmail.com
-  linkedin: shiltemann
-  twitter: shiltemann
+  - name: Saskia Hiltemann
+    pic: github
+    affiliation: ErasmusMC
+    github: shiltemann
+    email: saskiahiltemann@gmail.com
+    linkedin: shiltemann
+    twitter: shiltemann
 
-- name: Leon Mei
-  pic: github
-  affiliation: LUMC
-  github: hailiangmei
+  - name: Leon Mei
+    pic: github
+    affiliation: LUMC
+    github: hailiangmei
 
-- name: Cico Zhang
-  pic: github
-  affiliation: VUMC
-  github: CicoZhang
+  - name: Cico Zhang
+    pic: github
+    affiliation: VUMC
+    github: CicoZhang
 
-- name: Andrew Stubbs
-  pic: andrew.jpg
-  affiliation: ErasmusMC
-  email: a.stubbs@erasmsumc.nl
+  - name: Andrew Stubbs
+    pic: andrew.jpg
+    affiliation: ErasmusMC
+    email: a.stubbs@erasmsumc.nl
 
-- name: David van Zessen
-  pic: david.jpg
-  affiliation: ErasmusMC
-  github: davidvanzessen
-  email: d.vanzessen@erasmsumc.nl
+  - name: David van Zessen
+    pic: david.jpg
+    affiliation: ErasmusMC
+    github: davidvanzessen
+    email: d.vanzessen@erasmsumc.nl
 
-- name: Youri Hoogstrate
-  pic: youri.jpg
-  affiliation: ErasmusMC
-  github: yhoogstrate
-  email: y.hoogstrate@erasmsumc.nl
+  - name: Youri Hoogstrate
+    pic: youri.jpg
+    affiliation: ErasmusMC
+    github: yhoogstrate
+    email: y.hoogstrate@erasmsumc.nl

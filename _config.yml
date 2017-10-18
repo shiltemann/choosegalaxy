@@ -5,8 +5,8 @@ baseurl:
 # where things are
 source: .
 destination: ./_site
-plugins_dir:  _plugins
-layouts_dir:  _layouts
+plugins_dir: _plugins
+layouts_dir: _layouts
 includes_dir: _includes
 data_dir: content
 
@@ -15,11 +15,10 @@ markdown: kramdown
 permalink: pretty
 
 
-
 # General site settings
 title: Choose Galaxy NL
-email: a.stubbs@erasmusmc.nl
-description: "Erasmus Medical Center Bioinformatcs Department"
+email: saskiahiltemann@gamil.com
+description: "our portal to the Galaxy"
 
 welcome-message: Welcome to the Dutch Galaxy Portal!
 welcome-subtitle: It's Nice To Meet You

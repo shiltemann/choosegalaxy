@@ -1,7 +1,7 @@
 ---
 collaborators:
-- name: elixir
-  logo: elixir.png
+  - name: elixir
+    logo: elixir.png
 
-- name: dtl
-  logo: dtl.jpg
+  - name: dtl
+    logo: dtl.jpg
