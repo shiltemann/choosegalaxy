@@ -18,14 +18,14 @@ people:
     twitter: shiltemann
 
   - name: Leon Mei
-    pic: github
+    pic: leon.jpg
     affiliation: LUMC
-    github: hailiangmei
+    email: H.Mei@lumc.nl
 
   - name: Cico Zhang
-    pic: github
-    affiliation: VUMC
-    github: CicoZhang
+    pic: cico.jpg
+    affiliation: VU
+    email: c.zhang@vu.nl
 
   - name: Andrew Stubbs
     pic: andrew.jpg
@@ -43,3 +43,7 @@ people:
     affiliation: ErasmusMC
     github: yhoogstrate
     email: y.hoogstrate@erasmsumc.nl
+
+  - name: Rita Azevedo
+    pic: rita.jpg
+    affiliation: Lygature
