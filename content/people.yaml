@@ -50,3 +50,9 @@ people:
   - name: Rita Azevedo
     pic: rita.jpg
     affiliation: Lygature
+
+  - name: Ruben Vorderman
+    pic: ruben.jpg
+    affiliation: LUMC
+    github: rhpvorderman
+    email: r.h.p.vorderman@lumc.nl
