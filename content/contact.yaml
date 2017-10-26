@@ -15,4 +15,5 @@ contact-options:
       - line: The Netherlands
     links:
       - description: Route and Parking
-        url: https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en
+        url:
+          https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en

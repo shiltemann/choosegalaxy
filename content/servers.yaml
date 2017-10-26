@@ -1,6 +1,8 @@
 ---
 header: Galaxy Servers
-tagline: Below is an overview of available public Galaxy instances in The Netherlands. Click on each logo to get more information
+tagline: >
+  Below is an overview of available public Galaxy instances in The Netherlands.
+  Click on each logo to get more information
 footer:
 
 servers:

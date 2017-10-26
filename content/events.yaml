@@ -1,8 +1,11 @@
-# these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
 ---
+# these will be rendered on a timeline in the order encountered,
+# please put in chronological order with newest first
 header: Events
 tagline: List of Galaxy-related events, past and upcoming.
-footer: If you would like to register your event here, please <a href="#contact">contact</a> us
+footer: >
+  If you would like to register your event here, please
+  <a href="#contact">contact</a> us
 
 events:
   - title: Elixir-NL Galaxy Training
@@ -19,8 +22,16 @@ events:
     day: 6-8
     month: November
     year: 2018
-    url: http://www.rna-seqblog.com/ngs-course-rna-seq-data-analysis-2017-7th-edition/
+    url:
+      http://www.rna-seqblog.com/ngs-course-rna-seq-data-analysis-2017-7th-edition/
     location: LUMC
     organizer: BioSB & LUMC
     pic: fuma.png
-    description: The BioSB research school and partner LUMC are organizing a 3-day course on RNA-seq data analysis. This is an advanced course for people with experience in NGS. The course will consist of lectures, Galaxy and R practicals and will cover the analysis pipelines for differential transcript expression and variant calling. Examples will be taken from human and mouse studies. The course does not cover prokaryotic RNA profiling nor plant- and metagenomics aspects
+    description: >
+      The BioSB research school and partner LUMC are organizing a 3-day course
+      on RNA-seq data analysis. This is an advanced course for people with
+      experience in NGS. The course will consist of lectures, Galaxy and R
+      practicals and will cover the analysis pipelines for differential
+      transcript expression and variant calling. Examples will be taken from
+      human and mouse studies. The course does not cover prokaryotic RNA
+      profiling nor plant- and metagenomics aspects

@@ -1,6 +1,8 @@
 ---
 header: Projects
-tagline: Below you can find some Galaxy-related projects from around the country and the world.
+tagline: >
+  Below you can find some Galaxy-related projects from around the country and
+  the world.
 footer: ""
 
 projects:
@@ -23,11 +25,15 @@ projects:
     keywords: Galaxy, FAIR data, Web Development
     url: https://github.com/ErasmusMC-Bioinformatics/myFAIR
     description:
-      - paragraph: |
-          MyFAIR Analysis is a web application designed to allow scientists to create FAIR data, and to provide FAIR data analysis such that the “end to end”
-          analysis complies with FAIR data principles. MyFAIR analysis is a python application and graphical user interface (GUI) that uses Galaxy2 for
-          analytical workflows and B2DROP3(EUDAT) for FAIR data storage.  Our proof of concept to test myFAIR analysis uses the genome in a bottle trio-samples
-          available form  galaxy training for genetic variation analysis.
+      - paragraph: >
+          MyFAIR Analysis is a web application designed to allow scientists to
+          create FAIR data, and to provide FAIR data analysis such that the
+          “end to end” analysis complies with FAIR data principles. MyFAIR
+          analysis is a python application and graphical user interface (GUI)
+          that uses Galaxy2 for analytical workflows and B2DROP3(EUDAT) for FAIR
+          data storage.  Our proof of concept to test myFAIR analysis uses the
+          genome in a bottle trio-samples available from galaxy training for
+          genetic variation analysis.
       - image: myfair.png
 
 # ansible playbook
