@@ -39,13 +39,19 @@ projects:
   - title: galaxy-docker-ansible
     subtitle: Easy deployment of a galaxy server
     id: gda
-    image: bla
     url: https://github.com/LUMC/galaxy-docker-ansible
     keywords: Galaxy, ansible, docker, deployment
     description:
       - paragraph: >
-          bla!
-        image: bla
+          Galaxy-docker-ansible aims to make galaxy deployment easy. Galaxy
+          is already distributed in a
+          <a href="https://github.com/bgruening/docker-galaxy-stable">docker
+          image</a> which has all the necessary services included, but still
+          requires quite some time to configure. Galaxy-docker-ansible provides
+          easy to understand yaml files to configure your galaxy server. After
+          the configuration step, a galaxy server can be started by running just
+          two commands.
+
 
 # ansible playbook
 # EGA connection
