@@ -34,7 +34,18 @@ projects:
           data storage.  Our proof of concept to test myFAIR analysis uses the
           genome in a bottle trio-samples available from galaxy training for
           genetic variation analysis.
-      - image: myfair.png
+      - image: myfair.
+
+  - title: galaxy-docker-ansible
+    subtitle: Easy deployment of a galaxy server
+    id: gda
+    image: bla
+    url: https://github.com/LUMC/galaxy-docker-ansible
+    keywords: Galaxy, ansible, docker, deployment
+    description:
+      - paragraph: >
+          bla!
+        image: bla
 
 # ansible playbook
 # EGA connection
