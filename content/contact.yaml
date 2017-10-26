@@ -5,6 +5,11 @@ contact-options:
       - description: saskiahiltemann@gmail.com
         url: mailto:saskiahiltemann@gmail.com
 
+  - header: NBIC Galaxy support
+    links:
+      - description: Mail us for questions about the NBIC galaxy.
+        url: mailto:sasc@lumc.nl
+
   - header: ErasmusMC Visiting Address
     text:
       - line: Bioinformatics Department
