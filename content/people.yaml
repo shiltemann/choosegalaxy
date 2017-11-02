@@ -51,8 +51,29 @@ people:
     pic: rita.jpg
     affiliation: Lygature
 
+  - name: Celia van Gelder
+    pic: celia.jpg
+    affiliation: DTL
+
+  - name: Niek Bosch
+    pic: niek.jpg
+    affiliation: SURFsara
+
+  - name: Johan den Dunnen
+    affiliation: LUMC
+
   - name: Ruben Vorderman
     pic: ruben.jpg
     affiliation: LUMC
-    github: rhpvorderman
-    email: r.h.p.vorderman@lumc.nl
+
+  - name: Rob Hooft
+    pic: github
+    github: Rwwh
+    affiliation: DTL
+
+  - name: Sanne Abeln
+    pic: sanne.png
+    affiliation: VU
+
+  - name: Ruud Ross
+    affiliation: SURFsara
