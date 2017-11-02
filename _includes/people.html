@@ -12,7 +12,7 @@
             <div class="row">
                 {% for member in p.people %}
                 <div class="col-sm-2">
-                    <div class="team-member">
+                    <div class="team-member row">
                         {% if member.pic == "github" %}
                         <img src="https://avatars.githubusercontent.com/{{ member.github }}" class="img-responsive img-circle" alt="">
                         {% else %}
