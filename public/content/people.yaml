@@ -1,0 +1,105 @@
+# picture can either be included in this repo (img directory) or can specify
+#   pic: github
+#   github-username: shiltemann
+# to get the image from github
+---
+header: GalaxyNL partners
+tagline: The Dutch Galaxy Community
+footer: >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+  laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea,
+  alias ut unde.
+
+people:
+  - name: Saskia Hiltemann
+    pic: github
+    affiliation: ErasmusMC
+    specialisation: Galaxy tool development
+    github: shiltemann
+    email: saskiahiltemann@gmail.com
+    linkedin: shiltemann
+    twitter: shiltemann
+
+  - name: Leon Mei
+    pic: leon.jpg
+    affiliation: LUMC
+    email: H.Mei@lumc.nl
+
+  - name: Cico Zhang
+    pic: cico.jpg
+    affiliation: VU
+    email: c.zhang@vu.nl
+
+  - name: Andrew Stubbs
+    pic: andrew.jpg
+    affiliation: ErasmusMC
+    email: a.stubbs@erasmsumc.nl
+
+  - name: David van Zessen
+    pic: david.jpg
+    affiliation: ErasmusMC
+    github: davidvanzessen
+    email: d.vanzessen@erasmsumc.nl
+
+  - name: Youri Hoogstrate
+    pic: youri.jpg
+    affiliation: ErasmusMC
+    github: yhoogstrate
+    email: y.hoogstrate@erasmsumc.nl
+
+  - name: Rita Azevedo
+    pic: rita.jpg
+    affiliation: Lygature
+
+  - name: Celia van Gelder
+    pic: celia.jpg
+    affiliation: DTL
+
+  - name: Niek Bosch
+    pic: niek.jpg
+    affiliation: SURFsara
+
+  - name: Johan den Dunnen
+    pic: default.png
+    affiliation: LUMC
+
+  - name: Ruben Vorderman
+    pic: ruben.jpg
+    affiliation: LUMC
+
+  - name: Rob Hooft
+    pic: github
+    github: Rwwh
+    affiliation: DTL
+
+  - name: Sanne Abeln
+    pic: sanne.png
+    affiliation: VU
+
+  - name: Ruud Ross
+    pic: default.png
+    affiliation: SURFsara
+
+  - name: Peter Horvatovich
+    pic: peter.jpg
+    affiliation: University of Groningen
+
+  - name: Erijkjan Bogaard
+    pic: default.png
+    affiliation: SURFsara
+
+  - name: Irene Nooren
+    pic: default.png
+    affiliation: SURFsara
+
+  - name: Eric Kuijt
+    pic: default.png
+    affiliation: Wageningen University and Research Centre
+
+  - name: Christian Rausch
+    pic: default.png
+    affiliation: NKI
+
+  - name: Remond Fijneman
+    pic: default.png
+    affiliation: Remond Fijneman
