@@ -1,0 +1,44 @@
+---
+header: Galaxy Servers
+tagline: >
+  Below is an overview of available public Galaxy instances in The Netherlands.
+  Click on each logo to get more information
+footer:
+
+servers:
+  - name: NBIC Galaxy
+    tagline: The DTL Galaxy instance hosted at SURFSara
+    icon: star
+    id: nbic
+    url: http://galaxy.nbic.nl
+    description:
+      - paragraph: >
+          The Galaxy NBIC server is hosted by SURFSara and Elixir-NL.
+      - image: sombrero_galaxy.jpg
+      - paragraph: >
+          This is a demo server with limited resources. It can be used for
+          education purposes and as a showcase for bioinformatics tools. Please
+          <a href="#contact">contact</a> us if you want to showcase your tools
+          on the NBIC server.
+
+  - name: ErasmusMC Galaxian
+    tagline: Galaxy server with focus on NGS analysis.
+    icon: star
+    id: emc-galaxian
+    url: https://bioinf-galaxian.erasmusmc.nl/galaxy/
+    description:
+      - paragraph: blabla
+      - image: galaxy_logo.jpg
+      - paragraph: blabla again
+
+  - name: LUMC Galaxy
+    tagline: Local Galaxy running at LUMC Cluster.
+    icon: star
+    id: lumc
+    url: https://sasc.lumc.nl
+    description:
+      - paragraph: >
+          The LUMC's local Galaxy instance that is connected to the SHARK
+          cluster.
+      - image: lumc.jpeg
+      - paragraph: This server is only accessible from networks within the LUMC.

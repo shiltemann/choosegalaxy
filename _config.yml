@@ -3,6 +3,7 @@ url: https://shiltemann.github.io/choosegalaxy
 baseurl:
 
 # where things are
+destination: public
 plugins_dir: _plugins
 layouts_dir: _layouts
 includes_dir: _includes
