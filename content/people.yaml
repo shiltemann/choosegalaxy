@@ -60,6 +60,7 @@ people:
     affiliation: SURFsara
 
   - name: Johan den Dunnen
+    pic: default.png
     affiliation: LUMC
 
   - name: Ruben Vorderman
@@ -76,4 +77,29 @@ people:
     affiliation: VU
 
   - name: Ruud Ross
+    pic: default.png
     affiliation: SURFsara
+
+  - name: Peter Horvatovich
+    pic: peter.jpg
+    affiliation: University of Groningen
+
+  - name: Erijkjan Bogaard
+    pic: default.png
+    affiliation: SURFsara
+
+  - name: Irene Nooren
+    pic: default.png
+    affiliation: SURFsara
+
+  - name: Eric Kuijt
+    pic: default.png
+    affiliation: Wageningen University and Research Centre
+
+  - name: Christian Rausch
+    pic: default.png
+    affiliation: NKI
+
+  - name: Remond Fijneman
+    pic: default.png
+    affiliation: Remond Fijneman
