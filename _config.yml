@@ -1,0 +1,36 @@
+---
+url: https://shiltemann.github.io/choosegalaxy
+baseurl:
+
+# where things are
+plugins_dir: _plugins
+layouts_dir: _layouts
+includes_dir: _includes
+data_dir: content
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+# General site settings
+title: Choose Galaxy NL
+email: saskiahiltemann@gamil.com
+description: "our portal to the Galaxy"
+
+welcome-message: Welcome to the Dutch Galaxy Portal!
+welcome-subtitle: It's Nice To Meet You
+
+banner-img: banner-dna.jpg
+
+# Icon tag config
+icon-email: fa-envelope
+icon-github: fa-github
+icon-linkedin: fa-linkedin
+icon-twitter: fa-twitter
+
+social:
+  - title: github
+    url: https://github.com/orgs/ErasmusMC-Bioinformatics
+  - title: twitter
+    url: https://twitter.com/ErasmusMC
