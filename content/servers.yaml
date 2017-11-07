@@ -38,6 +38,6 @@ servers:
     description:
       - paragraph: >
           The LUMC's local Galaxy instance that is connected to the SHARK
-          cluster. https://galaxy.researchlumc.nl
+          cluster. <a href="https://galaxy.researchlumc.nl">https://galaxy.researchlumc.nl</a>
       - image: lumc.jpeg
       - paragraph: This server is only accessible from networks within the LUMC.
