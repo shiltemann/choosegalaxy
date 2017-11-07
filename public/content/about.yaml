@@ -6,18 +6,15 @@ footer:
 image: Galaxy_NL_member_map.jpg
 text:
   - paragraph: >
-      In 2003, Erasmus MC took the first steps in order to establish a Center
-      for Bioinformatics. Located in the heart of the biomedical research
-      activities of Erasmus MC, this high-tech bioinformatics department is
-      equipped with a state of the art hard- and software. In collaboration
-      with other departments the center’s multidisciplinary team supports
-      projects that generate genetics, genomics and proteomics data from basic
-      research, forensics studies, molecular diagnostics and clinical trials.
+      DTL Galaxy Working Group was established in 2016 as a specific community
+      connecting various stakeholders developing and working with Galaxy system.
+      Three major interested areas are Tool Dissemination, Service & e-Infra Support,
+      and Training & Education. Members of the DTL Galaxy Working Group have an
+      active roles in multiple European and Dutch level collaboration projects on
+      developing and using Galaxy platform to support large scale data analysis in the
+      fields of NGS, Proteomics, and Metabolomics.
   - paragraph: >
-      The center also runs a research program of its own, which provides the
-      biological and technological basis of all the other activities. The
-      research focuses on the way the genome as a whole contributes to the
-      evolution, development, structure and function of the brain. It involves
-      analysis of gene expression in cells of the brain and combines genomics,
-      proteomics and cytogenetic data to identify genes associated with
-      neurological disorders or craniofacial and extremity malformations.
+      This working group is now chaired by Saskia Hiltemann from ErasmusMC who is an
+      active contributer to the Galaxy main project and Galaxy training network. We
+      are building this working group as an open community and we welcome interested
+      parties to join us from both academia and industry.
