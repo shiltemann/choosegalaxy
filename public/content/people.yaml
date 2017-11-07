@@ -5,10 +5,6 @@
 ---
 header: GalaxyNL partners
 tagline: The Dutch Galaxy Community
-footer: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-  laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea,
-  alias ut unde.
 
 people:
   - name: Saskia Hiltemann
@@ -91,10 +87,6 @@ people:
   - name: Irene Nooren
     pic: default.png
     affiliation: SURFsara
-
-  - name: Eric Kuijt
-    pic: default.png
-    affiliation: Wageningen University and Research Centre
 
   - name: Christian Rausch
     pic: default.png

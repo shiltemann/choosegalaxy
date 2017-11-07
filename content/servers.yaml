@@ -27,9 +27,8 @@ servers:
     id: emc-galaxian
     url: https://bioinf-galaxian.erasmusmc.nl/galaxy/
     description:
-      - paragraph: blabla
+      - paragraph: Public Galaxy server hosted by the Bioinformatics Department at ErasmusMC
       - image: galaxy_logo.jpg
-      - paragraph: blabla again
 
   - name: LUMC Galaxy
     tagline: Local Galaxy running at LUMC Cluster.
@@ -39,6 +38,6 @@ servers:
     description:
       - paragraph: >
           The LUMC's local Galaxy instance that is connected to the SHARK
-          cluster.
+          cluster. <a href="https://galaxy.researchlumc.nl">https://galaxy.researchlumc.nl</a>
       - image: lumc.jpeg
       - paragraph: This server is only accessible from networks within the LUMC.
