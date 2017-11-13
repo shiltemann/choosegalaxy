@@ -403,6 +403,7 @@ section h3.section-subheading {
 
 #projects .projects-item .projects-link .projects-hover .projects-hover-content i {
     margin-top: -12px;
+
 }
 
 #projects .projects-item .projects-link .projects-hover .projects-hover-content h3,
@@ -879,6 +880,11 @@ body {
     object-fit: contain;
     width: 150px;
     height: 150px;
+}
+
+.projects-thumbnail {
+    object-fit: contain;
+    height: 200px;
 }
 
 
