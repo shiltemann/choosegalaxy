@@ -73,7 +73,7 @@ people:
     affiliation: VU
 
   - name: Ruud Ross
-    pic: default.png
+    pic: ruud.png
     affiliation: SURFsara
 
   - name: Peter Horvatovich
@@ -93,5 +93,5 @@ people:
     affiliation: NKI
 
   - name: Remond Fijneman
-    pic: default.png
-    affiliation: Remond Fijneman
+    pic: remond.jpg
+    affiliation: NKI
