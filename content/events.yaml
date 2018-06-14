@@ -13,15 +13,29 @@ events:
     month:
     year: 2018
     url:
-    location: TBD
+    location: VU
     organizer: Elixir-NL
     pic: ega.png
-    description: Elixir-NL will provide a training in the first half of 2018.
+    description: Elixir-NL will provide a training in October 2018.
+    
+  - title: Next Generation Sequencing data analysis
+    day: 27-29
+    month: August
+    year: 2018
+    url: http://www.medgencentre.com/.cm4all/mediadb/Cursus%20info/NGS%202018.pdf
+    location: LUMC
+    organizer: MGC
+    pic: fuma.png
+    description: >
+      This course aims at PhD students, postdocs and senior researchers who are interested in planning, 
+      or already working with next-generation sequencing. We welcome researchers from both the genomics 
+      and bioinformatics fields. Currently available technologies as well as hardware solutions will be 
+      presented and discussed. The focus of the course will be on data and ways to analyse the data.
 
   - title: NGS Data Analysis Course
     day: 6-8
     month: November
-    year: 2018
+    year: 2017
     url:
       http://www.rna-seqblog.com/ngs-course-rna-seq-data-analysis-2017-7th-edition/
     location: LUMC
